@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navigation py-5">
+  <div class="container">
+    <div class="navbar-brand me-auto d-flex justify-content-center align-items-center" href="#">
+      <img class="w-25" src="./images/logo@2x.png ">
+      <div class="d-flex flex-column align-items-center  ms-2">
+      <h1 class="h6 text-white"> Weather</h1> 
+      <h2 class="h6 text-white">tagline goes here</h2>  
+      </div>
+    </div>
+    <button class="navbar-toggler" data-bs-target="#navbarNavAltMarkup" data-bs-toggle="collapse" type="button" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link rounded-pill  active text-info " href="index.html" aria-current="page">Home</a>
+        <a class="nav-link rounded-pill" href="#">News</a>
+        <a class="nav-link rounded-pill" href="#">LiveCameras</a>
+          <a class="nav-link rounded-pill" href="#">Photos</a>
+            <a class="nav-link rounded-pill" href="contact.html">Contact</a>
+      
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="contain">
+<div class="input-group mb-3 position-relative"> <!-- أضفنا position-relative هنا -->
+
+
+  <input class="form-control mt-2 mb-4 rounded-pill " type="search" aria-describedby="button-addon2" aria-label="find your location"  style="padding-top: 3rem; width: 790px">
+
+
+
+  <div class="searchNav   d-flex justify-content-center align-items-center z-3">
+    <a class="nav-link rounded-pill active text-info bg-white px-3 py-1 mx-1" href="index.html">Home</a>
+    <i class="fa-solid fa-arrow-right mx-1 text-info fs-5"></i>
+    <a class="nav-link rounded-pill text-info px-3 py-1 mx-1 active" href="contact.html">Contact</a>
+  </div>
+
+</div>
+
+<div class="container my-3">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="contact-card d-flex justify-content-center  align-items-center py-5">
+          <div class="contact-cards  d-flex justify-content-center flex-end flex-column align-items-start">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Company Name INC.
+2803 Avenue Street, Los Angeles</span>
+<i class="fa-solid fa-phone"></i>
+<span>+1 800 314 235</span>
+<i class="fa-solid fa-envelope"></i>
+<span class="d-inline-block">contact@companyname.com</span>
+      </div>
+      </div>
+    
+    </div>
+  <div class="col-md-6">
+  <div class="form-title">
+    <h4>Contact us</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus,
+      facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis
+      odit hic, ipsum sed!
+    </p>
+
+    <!-- form inputs -->
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input class="form-control" type="text" aria-label="First name" placeholder="First name">
+      </div>
+      <div class="col-md-6">
+        <input class="form-control" type="text" aria-label="Last name" placeholder="Last name">
+      </div>
+      <div class="col-md-6">
+        <input class="form-control" type="text" aria-label="Company name" placeholder="Company name">
+      </div>
+      <div class="col-md-6">
+        <input class="form-control" type="text" aria-label="Website name" placeholder="Website name">
+      </div>
+      <div class="col-12">
+        <div class="form-floating">
+          <textarea class="form-control" id="floatingTextarea" placeholder="Leave a comment here" style="height: 100px;"></textarea>
+          <label for="floatingTextarea">Comments</label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-info text-white px-4 rounded-pill" type="submit">
+          Send Message
+        </button>
+      </div>
+    </form>
+
+  </div>
+</div>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer py-5">
+  <div class="footItems d-flex justify-content-center align-items-center gap-2 flex-wrap">
+
+    
+    <div class="input-group mb-3 position-relative" style="width:650px">
+      <input class="form-control rounded-pill py-2 pe-5" type="search" aria-describedby="subscribe-button" aria-label="Enter email to subscribe" placeholder="Enter email to subscribe" style="padding-right: 20px;">
+      <button class="btn bg-info text-light rounded-pill position-absolute top-50 translate-middle-y end-0 me-2" id="subscribe-button" type="submit" style="z-index: 3; height: 38px;">
+        Subscribe
+      </button>
+    </div>
+
+
+    <div class="social-icon d-flex justify-content-around align-items-center ">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+    </div>
+
+  </div>
+
+  <p class="text-white text-center mt-3">
+    Copyright 2014 Company name. Designed by Themezy. All rights reserved.
+  </p>
+</div>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

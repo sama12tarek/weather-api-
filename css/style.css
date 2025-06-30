@@ -1,0 +1,144 @@
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation, .cards .col-md-4{
+  background-color: #1E202B;
+
+}
+.nav-link {
+  color: aliceblue;
+  width: 100px; 
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 
+    color 0.15s ease-in, 
+    background-color 0.15s ease-in, 
+    border-color 0.15s ease-in,
+    box-shadow 0.15s ease-in;
+
+}
+
+
+.navbar-collapse .nav-link:hover ,.nav-link.active{
+  color: #009AD8;
+  background-color: #1E202B; 
+  border: solid #009AD8;
+
+}
+.header {
+  background-image: url("../images/banner.png");
+  object-fit: contain;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+height: 100vh;
+
+}
+.input-group input {
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.my-fixed-btn {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  z-index: 999;
+  width: 60px;
+  height: 40px;
+}
+
+
+.inner{
+  background-color: #323544;
+}
+.icons div{
+  width: 15%;
+  display: inline-block;
+}
+
+div img{
+  object-fit: contain;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+
+.card {
+  width: 100%;
+  height: 450px;
+  background-color: #323544;
+  
+}
+  
+.title,.footer{
+background-color: #2D303D;
+}
+
+.inner {
+    width: 100%;
+  height: 450px;
+  background-color: #323544;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.social-icon a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1E202B; 
+    color: #009AD8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid  #dde5e9;
+    transition:   border-color 0.15s ease-in,;
+}
+
+.social-icon a:hover{
+    border: 1px solid  #3da3d6;
+}
+.searchNav a {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding-top: 2.5rem; /* علشان يفضل في مساحه للزرارين فوق */
+}
+.searchNav {
+  top: 40px;
+  left: 10px;
+  position: absolute;
+  z-index: 3;
+}
+
+
+.contact-card {
+  background-color: #1E202B; 
+  box-shadow: 1px 4px 8px rgba(79, 66, 66, 0.849);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  color: azure;
+  border: 1px solid rgb(229, 209, 209);
+}
